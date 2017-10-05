@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andriod.happybirthday.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cake"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="happy birthday!"
+        android:textSize="26dp"
+        android:padding="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#DCE775"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary" />
+
+
+
+    <TextView
+        android:text="FROM MAMABOI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="?attr/colorAccent"
+        android:textSize="24sp"
+        android:padding="20dp"/>
+
+</RelativeLayout>
